@@ -26,7 +26,7 @@ const CartModal = ({ onClose }) => {
         .join("\n\n")}\n\nGrand Total: ₹${totalPrice}\n\nName:\nPhone:\nAddress:`
     );
 
-    const phoneNumber = "917825067092"; // change to your number
+    const phoneNumber = "919600517726"; // change to your number
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };
 
@@ -76,20 +76,26 @@ const CartModal = ({ onClose }) => {
         </div>
 
         {/* STICKY FOOTER */}
-        {cart.length > 0 && (
-          <div className="cart-modal-footer">
-            <p className="total-price">
-              Grand Total: ₹{totalPrice}
-            </p>
+{cart.length > 0 && (
+  <div className="cart-modal-footer">
+    <p className="total-price">
+      Grand Total: ₹{totalPrice}
+    </p>
 
-            <button
-              className="whatsapp-btn"
-              onClick={sendWhatsAppOrder}
-            >
-              Place Order via WhatsApp
-            </button>
-          </div>
-        )}
+    {/* New free delivery message */}
+    <p className="free-delivery-msg" style={{ marginBottom: "8px", color: "#28a745", fontWeight: "600" }}>
+      Free delivery on orders above 1kg
+    </p>
+
+    <button
+      className="whatsapp-btn"
+      onClick={sendWhatsAppOrder}
+    >
+      Place Order via WhatsApp
+    </button>
+  </div>
+)}
+
 
       </div>
     </div>

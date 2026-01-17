@@ -53,3 +53,10 @@
 .whatsapp-btn:hover {
   background: #1ebe5d;
 }
+.free-delivery-msg {
+  margin-bottom: 8px;
+  color: #28a745; /* green */
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: center;
+}

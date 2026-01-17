@@ -21,11 +21,10 @@ function Footer() {
                                 <h2 className="widget-title">Get in Touch</h2>
                                 <ul>
                                     <li>
-                                        Dynamic Apartments, 15 Parangusapuram St, Azeez Nagar, West
-                                        Mambalam, Chennai, Tamil Nadu 600024
+                                        Yaazhvi Traders, Tamil Nadu 600024
                                     </li>
-                                    <li>nativenature.care@gmail.com</li>
-                                    <li>+91 8270177197</li>
+                                    <li>yaazhvitraders.care@gmail.com</li>
+                                    <li>+91 9688025821</li>
                                 </ul>
                             </div>
                         </div>
@@ -65,7 +64,7 @@ function Footer() {
                                 Reserved.
                             </p>
                         </div>
-                        <div className="col-lg-6 col-md-12 text-end">
+                        {/* <div className="col-lg-6 col-md-12 text-end">
                             <div className="social-icons">
                                 <ul>
                                     <li>
@@ -95,7 +94,7 @@ function Footer() {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

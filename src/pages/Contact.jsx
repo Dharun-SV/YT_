@@ -182,19 +182,11 @@ function Contact() {
                     Tamil Nadu 600017
                   </p>
                 </div>
-
-                <div className="info-block">
-                  <h4>🕒 Shop Hours</h4>
-                  <p>
-                    MON – SUN: 6 AM to 10 AM <br />
-                  </p>
-                </div>
-
                 <div className="info-block">
                   <h4>📞 Contact</h4>
                   <p>
-                    Phone: +91 8270177197 <br />
-                    Email: nativenature.care@gmail.com
+                    Phone: +91 9688025821 <br />
+                    Email: yaazhvitraders.care@gmail.com
                   </p>
                 </div>
 

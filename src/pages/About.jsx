@@ -8,7 +8,7 @@ import "../assets/css/meanmenu.min.css";
 import "../assets/css/main.css";
 import "../assets/css/responsive.css";
 import whatwe from "../assets/img/Juice/WhatWe.png";
-import Zip from "../assets/img/Juice/Zip.png";
+import abtYT from "../assets/img/Juice/About_YT.png";
 import Crafted from "../assets/img/Juice/Crafted.png";
 import "../assets/css/about.css";
 
@@ -21,7 +21,7 @@ function About() {
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2 text-center">
                             <div className="breadcrumb-text">
-                                <p>We sell fresh Juice</p>
+                                <p>Premium Dry Fruits & Nuts</p>
                                 <h1>About Us</h1>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ function About() {
                         <div className="col-lg-8 offset-lg-2">
                             <div className="section-title">
                                 <h3>Who <span className="orange-text">We Are</span></h3>
-                                <p>Native & Nature is a brand committed to delivering pure, organic, and naturally crafted products. We focus on authenticity, quality, and the richness of native ingredients.</p>
+                                <p>At Yaazhvi Traders, we offer premium dry fruits and nuts for both wholesale and retail needs. Each product is selected with care to deliver natural freshness and rich flavor. We aim to be your reliable partner for healthy and high-quality choices.</p>
                             </div>
                         </div>
                     </div>
@@ -57,17 +57,15 @@ function About() {
 
                                         {/* Image added here */}
                                         <img
-                                            src={Zip}
+                                            src={abtYT}
                                             alt="Native & Nature"
                                             className="latest-news-img"
                                         />
 
                                         <div className="news-text-box">
-                                            <h3><span className="orange-text">Health in Every Sip</span></h3>
+                                            <h3><span className="orange-text">About Yaazhvi Traders</span></h3>
                                             <p className="excerpt">
-                                                Our juices are packed with essential vitamins and antioxidants to keep you energized all day.
-                                                Prepared without preservatives, colors, or chemicals, each sip brings you closer to a healthier lifestyle.
-                                                Perfect for kids, adults, and anyone who wants to choose natural over processed drinks.
+                                                Trusted suppliers of quality dry fruits and nuts, Yaazhvi Traders offers carefully selected products for wholesale and retail markets. We ensure superior taste, freshness, and uncompromised standards.
                                             </p>
                                         </div>
 
@@ -87,10 +85,7 @@ function About() {
                                         <div className="news-text-box">
                                             <h3><span className="orange-text">What We Offer</span></h3>
                                             <p className="excerpt">
-                                                100% natural juices made from fresh farm-grown fruits.
-                                                Healthy options with no added chemicals or preservatives.
-                                                100% natural juices made from fresh farm-grown fruits.
-                                                Healthy options with no added chemicals or preservatives.
+                                                We offer a wide range of premium dry fruits and nuts for both wholesale and retail customers. Our products are carefully sourced, hygienically packed, and delivered with assured freshness and quality.
                                             </p>
                                         </div>
 
@@ -110,10 +105,7 @@ function About() {
                                         <div className="news-text-box">
                                             <h3><span className="orange-text">Crafted with Care</span></h3>
                                             <p className="excerpt">
-                                                Every product we make goes through a careful, hygienic preparation process to ensure top-notch quality.
-                                                We follow traditional methods combined with modern standards to retain natural taste and nutrients.
-                                                From sourcing to packing, we prioritize purity, safety, and customer satisfaction in every step.
-                                            </p>
+                                                Every product at Yaazhvi Traders is crafted with care, selecting only the finest dry fruits and nuts. We ensure that each item is handled with attention, preserving freshness, flavor, and quality.</p>
                                         </div>
 
                                     </div>
@@ -132,14 +124,20 @@ function About() {
                         <div className="col-lg-7">
                             <div className="featured-text">
                                 <h2 className="pb-3">
-                                    Why <span className="orange-text">Native & Nature</span>
+                                    Why <span className="orange-text">Yaazhvi Traders</span>
                                 </h2>
                                 <div className="row">
                                     {[
-                                        { icon: "fas fa-shipping-fast", title: "Home Delivery", desc: "Native & Nature offers fast, free, and hygienic home delivery, bringing fresh organic products straight to your doorstep." },
-                                        { icon: "fas fa-money-bill-alt", title: "Best Price", desc: "We offer the best price for all our organic products, ensuring premium quality at an affordable cost for every customer." },
-                                        //{ icon: "fas fa-briefcase", title: "Custom Box", desc: "sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo." },
-                                        //{ icon: "fas fa-sync-alt", title: "Quick Refund", desc: "sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo." },
+                                        {
+                                            icon: "fas fa-shipping-fast",
+                                            title: "Home Delivery",
+                                            desc: "Enjoy fast and safe home delivery for all orders. Courier is free for orders above 1kg, bringing premium dry fruits & nuts straight to your doorstep."
+                                        },
+                                        {
+                                            icon: "fas fa-money-bill-alt",
+                                            title: "Best Price",
+                                            desc: "We offer premium dry fruits and nuts at the best prices, ensuring high quality and freshness without breaking the budget."
+                                        },
                                     ].map((item, index) => (
                                         <div className="col-lg-6 col-md-6 mb-4 mb-md-5" key={index}>
                                             <div className="list-box d-flex">
@@ -154,6 +152,7 @@ function About() {
                                         </div>
                                     ))}
                                 </div>
+
                             </div>
                         </div>
                     </div>
