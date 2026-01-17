@@ -26,7 +26,7 @@ const CartModal = ({ onClose }) => {
         .join("\n\n")}\n\nGrand Total: ₹${totalPrice}\n\nName:\nPhone:\nAddress:`
     );
 
-    const phoneNumber = "919600517726"; // change to your number
+    const phoneNumber = "919600517726"; 
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };
 
@@ -39,13 +39,11 @@ const CartModal = ({ onClose }) => {
     >
       <div className="cart-modal">
         
-        {/* HEADER */}
         <div className="cart-modal-header">
           <h3>Your Cart</h3>
           <button className="close-btn" onClick={onClose}>×</button>
         </div>
 
-        {/* BODY (Scrollable) */}
         <div className="cart-modal-body">
           {cart.length === 0 ? (
             <p className="empty-cart">Your cart is empty</p>
@@ -75,7 +73,6 @@ const CartModal = ({ onClose }) => {
           )}
         </div>
 
-        {/* STICKY FOOTER */}
 {cart.length > 0 && (
   <div className="cart-modal-footer">
     <p className="total-price">

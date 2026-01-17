@@ -1,12 +1,8 @@
 ﻿/* eslint-disable unicode-bom */
 import '../assets/css/Navbar.css';
-import Fresh from "../assets/img/Fresh_Poster.jpg";
-import Juice from "../assets/img/3Juice_Poster.png";
-import hyginic from "../assets/img/Hyginic_Poster.jpg";
 import NNPoster from "../assets/img/Juice/NN_Poster.png";
 import dFruits from "../assets/img/Dry_Fruits.png";
 import { products } from "../data/products";
-//import "./ProductSlider.css";
 import ProductSlider from '../data/ProductSlider.jsx';
 import Spacer from '../components/Spacer.jsx';
 
@@ -33,37 +29,6 @@ export default function HomePage() {
                     </div>
                 </div>
             </div>
-
-            {/* hero area */}
-            {/* <div className="hero-area hero-bg" style={{ padding: '190px 0' }}>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-9 offset-lg-2 text-center">
-                            <div className="hero-text">
-                                <div className="hero-text-tablecell">
-                                    <p className="subtitle">Native &amp; Nature</p>
-                                    <h1>Healthy Fresh Juice</h1>
-                                    <div className="hero-btns">
-                                        <a
-                                            href="#products"
-                                            className="boxed-btn"
-                                            onClick={(e) => {
-                                                e.preventDefault();
-                                                document
-                                                    .getElementById("products")
-                                                    .scrollIntoView({ behavior: "smooth" });
-                                            }}
-                                        >
-                                            Juice Collections
-                                        </a>
-                                        <a href="/contact" className="bordered-btn">Contact Us</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
 
             <section class="hero-section">
                 <div class="hero-container">
