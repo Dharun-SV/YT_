@@ -170,28 +170,6 @@ function Contact() {
               </div>
             </div>
 
-            {/* RIGHT: SHOP INFO */}
-            <div className="col-lg-4 col-md-5">
-              <div className="contact-info-box">
-
-                <div className="info-block">
-                  <h4>📍 Shop Address</h4>
-                  <p>
-                    86-107, Sir Thyagaraya Rd,<br />
-                    T. Nagar, Chennai,<br />
-                    Tamil Nadu 600017
-                  </p>
-                </div>
-                <div className="info-block">
-                  <h4>📞 Contact</h4>
-                  <p>
-                    Phone: +91 9688025821 <br />
-                    Email: yaazhvitraders.care@gmail.com
-                  </p>
-                </div>
-
-              </div>
-            </div>
           </div>
         </div>
       </div>

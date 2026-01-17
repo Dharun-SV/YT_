@@ -5,11 +5,22 @@ import dFruits from "../assets/img/Dry_Fruits.png";
 import { products } from "../data/products";
 import ProductSlider from '../data/ProductSlider.jsx';
 import Spacer from '../components/Spacer.jsx';
+import { useNavigate } from 'react-router-dom';
 
 export default function HomePage() {
+    const navigate = useNavigate();
+
     const handleViewProduct = (product) => {
-        
-};
+
+    };
+
+    const handleShopNow = () => {
+        navigate('/products');
+    };
+
+    const handleExplore = () => {
+        navigate('/about');
+    };
 
     return (
         <div>
@@ -40,8 +51,8 @@ export default function HomePage() {
                             Elite dry fruits and nuts chosen for those who expect the best.Sourced with care, crafted to deliver timeless quality and refined taste.
                         </p>
                         <div class="hero-buttons">
-                        <button class="btn-brand">Shop Now</button>
-                            <button class="btn-outline">Explore</button>
+                        <button class="btn-brand" onClick={handleShopNow}>Shop Now</button>
+                       <button class="btn-outline" onClick={handleExplore}>Explore</button>
                         </div>
                     </div>
 

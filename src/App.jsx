@@ -12,6 +12,8 @@ import { ToastContainer } from "react-toastify";
 import { CartProvider } from './components/CartContext.jsx';
 import CartModal from './components/CartModal.jsx';
 import FloatingCart from './components/FloatingCart.jsx';
+import ScrollToTop from './components/ScrollToTop.jsx';
+import PageLoader from './components/PageLoader.jsx';
 import { useState } from "react";
 
 function App() {
@@ -19,7 +21,8 @@ function App() {
   return (
 <CartProvider>
   <Router>
-
+    <ScrollToTop />
+    <PageLoader />
     <Navbar />
 
     <Routes>
