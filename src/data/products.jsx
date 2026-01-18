@@ -35,7 +35,7 @@ export const products = [
     },
     {
         id: 4,
-        name: "Walnut Juice",
+        name: "Walnut",
         image: Walnut,
         size: "500g",
         price: 40,

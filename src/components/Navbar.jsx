@@ -6,13 +6,11 @@ import { useCart } from "./CartContext";
 // import { FaShoppingCart } from "react-icons/fa";
 // import { Link } from "react-router-dom";
 import CartModal from "./CartModal";
-import Spinner from "./Spinner";
 
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
   const location = useLocation(); // added
   const { cart } = useCart();
   const [cartOpen, setCartOpen] = useState(false);
@@ -37,15 +35,6 @@ const Navbar = () => {
     }
   }, [location]); // added
 
-  // show spinner on route change
-  useEffect(() => {
-    setIsLoading(true);
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 800);
-    return () => clearTimeout(timer);
-  }, [location.pathname]);
-
   return (
   <>
      <nav className={`nav ${isScrolled ? "scrolled" : ""}`}>
@@ -54,7 +43,6 @@ const Navbar = () => {
         <a href="/" className="logo-link-btn">
           {/* <img src={Logo} alt="Yaazhvi Traders Logo" className="logo-link-img" /> */}
           <span className="logo-link-text">Yaazhvi Traders</span>
-          {isLoading && <Spinner size={20} color="#F28123" />}
         </a>
 
         <div
